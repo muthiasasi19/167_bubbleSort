@@ -49,3 +49,11 @@ void bubbleSortArray() {     // Procedure untuk mengurutkan array dengan metode 
 		}
 	}
 }
+
+
+int main() {
+	input();      // Memanggil read() dari class BubbleSort
+	bubbleSortArray(); // Memanggil bubbleSortArray() dari class BubbleSort
+	display();    // Memanggil display() dari class BubbleSort
+	return 0;
+}
